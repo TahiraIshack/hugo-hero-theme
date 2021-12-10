@@ -6000,7 +6000,7 @@ ul.social {
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: overlay;
-  background-color: #1c3ed3;
+  background-color: #1c3ed385;
   height: 400px;
   position: relative;
   padding-top: 60px; }
@@ -6092,10 +6092,25 @@ html {
       font-weight: 300; } }
 .service-summary {
   display: flex;
-  align-items: flex-start; }
+  align-items: flex-start;
+  box-shadow: rgb(0 0 0 / 22%) 0px 5px 15px;
+
+  margin-right: 20px;
+  margin-bottom: 50px;
+  height: 359px;
+  border-radius: 10px; }
+  .service-summary ul {
+    list-style-type: circle;
+    margin: 0px;
+    font-size:0.9rem;
+    color:#666;
+    padding-right:15px; }
   .service-summary .service-image {
     flex: 0 0 40px;
-    margin-right: 10px; }
+    margin-right: 10px;
+     margin-left: 10px; 
+    padding-left: 5px;
+    padding-top: 5px;}
     .service-summary .service-image img {
       max-width: 100%;
       height: auto; }
@@ -6103,7 +6118,9 @@ html {
     flex: 1; }
     .service-summary .service-content .service-title {
       font-family: "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
-      font-size: 1.5rem; }
+      font-size: 1.5rem;
+      font-weight: 1000;
+      margin-top: 5px; }
     .service-summary .service-content p {
       color: #666;
       font-size: 0.9rem;

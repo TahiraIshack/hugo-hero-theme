@@ -1,6 +1,6 @@
 baseURL = "www.example.com"
 languageCode = "en-us"
-title = "Hugo Hero Theme"
+title = "CITI "
 themesDir = "../.."
 theme = "hugo-hero-theme"
 
@@ -48,6 +48,7 @@ theme = "hugo-hero-theme"
     name = "Contact"
     url = "/contact/"
     weight = 4
+
 
 [permalinks]
   post = "/:year/:month/:day/:slug/"
