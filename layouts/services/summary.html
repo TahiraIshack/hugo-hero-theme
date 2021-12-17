@@ -1,14 +1,54 @@
+<!-- <head><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"></head> -->
+<head>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
 <div class="service service-summary">
+  
   {{ if .Params.icon }}
+  
   <div class="service-image">
     <img src="{{ .Site.BaseURL }}{{ .Params.icon }}"/>
   </div>
+  
+
   {{ end }}
+  
   <div class="service-content">
     <h2 class="service-title">
       <a href="{{ .Permalink }}">{{ .Title }}</a>
+      <p style="font-size: 10px;">
+        {{.Params.heroSubHeading}}
+        </p>
     </h2>
+    <div class="service-image-content" >
+      <!-- style="width: 122%; height:120px;" -->
+    <img src="{{ .Site.BaseURL }}{{ .Params.icon1 }}"  class="image1" /> 
+    </div>
+    </br>
   </br>
     {{ .Content | truncate 200}}
+  </br>
+    <div class= "row" style="padding-bottom: 5px;">
+      <div class="col md-2"><a href="#">Link1</a></div>
+      <div class="col md-2"><a href="#">Link2</a></div>
+      <div class="col md-2"></div>
+      <div class="col md-2"></div>
+      <div class="col md-2">
+        <i class="heart fa fa-heart-o" style="color:red"></i>
+      </div>
+      <div class="col md-2">
+        <i class="fa fa-share" style="padding-right: 15px;"></i>
+      </div>
+    </div>
   </div>
 </div>

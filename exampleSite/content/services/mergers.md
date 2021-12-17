@@ -2,10 +2,11 @@
 title: "Ansible"
 date: 2018-11-28T15:15:34+10:00
 icon: "services/ansible.png"
+icon1: "services/landscape.jpg"
 featured: true
 draft: false
 heroHeading: "Mergers & Acquisitions"
-heroSubHeading: "Thinking of acquiring another business? Let us guide you through the process."
+heroSubHeading: "Secondary text"
 heroBackground: "services/service2.jpg"
 ---
 
@@ -22,8 +23,3 @@ heroBackground: "services/service2.jpg"
 - Configuration Management
 - Security and Compliance
 - Application Deployment
-- Application Deployment
-- Orchestration
-- Agentless
-- Efficient
-

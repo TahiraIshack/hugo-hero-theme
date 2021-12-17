@@ -2,11 +2,12 @@
 title: "Java"
 date: 2018-11-18T12:33:46+10:00
 icon: "services/java.png"
+icon1: "services/landscape.jpg"
 draft: false
 featured: true
 weight: 2
 heroHeading: "JAVA "
-heroSubHeading: "Preparing and filing your tax return"
+heroSubHeading: "Secondary text"
 heroBackground: "services/service2.jpg"
 ---
 
@@ -20,8 +21,5 @@ heroBackground: "services/service2.jpg"
 
 - Java is Platform Independent
 - Java is Object Oriented
-- It is very Secure 
+- It is very Secure
 - Java is Multithreaded
-- Java is Distributed
-- Architecture Neutral
-- Portable

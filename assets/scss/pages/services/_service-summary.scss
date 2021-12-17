@@ -14,7 +14,7 @@
     margin: 0px;
     color: #666;
     font-size: 0.9rem;
-    padding-right:15px;
+    padding-right: 15px;
   }
 
   .service-image {
@@ -25,25 +25,32 @@
       max-width: 100%;
       height: auto;
       padding-left: 5px;
-    padding-top: 5px;
-   
+      padding-top: 5px;
     }
+  }
+
+  .service-image-content {
+    width: 200%;
+    height: 100px;
+    transform: translate(-60px, 0px);
   }
   .service-content {
     flex: 1;
-    
+
     .service-title {
       font-family: $font-family-heading;
       font-size: 1.5rem;
-      height:500px;
-      font-weight:1000;
+      height: 500px;
+      font-weight: 1000;
       margin-top: 5px;
     }
     p {
       color: #666;
       font-size: 0.9rem;
-      width:90%;
-
+      width: 90%;
+    }
+    .heart {
+      color: red;
     }
   }
 }

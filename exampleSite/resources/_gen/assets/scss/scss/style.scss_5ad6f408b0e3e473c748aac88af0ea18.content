@@ -135,6 +135,7 @@ a {
   color: #1c3ed3;
   text-decoration: none;
   background-color: transparent;
+  font-size: 0.9rem;
   -webkit-text-decoration-skip: objects; }
   a:hover {
     color: #6a82eb;
@@ -167,7 +168,19 @@ figure {
 
 img {
   vertical-align: middle;
-  border-style: none; }
+  border-style: none;
+  object-fit: contain;
+  
+}
+.service-image-content .image1
+{
+  width: 122%;
+  height:130px;
+}
+.service-image-content{
+  transform: translate(-60px,0px); 
+  height:100px;
+}
 
 svg:not(:root) {
   overflow: hidden; }
@@ -6097,12 +6110,12 @@ html {
 
   margin-right: 20px;
   margin-bottom: 50px;
-  height: 359px;
+  height: auto;
   border-radius: 10px; }
   .service-summary ul {
     list-style-type: circle;
     margin: 0px;
-    font-size:0.9rem;
+    font-size:0.8rem;
     color:#666;
     padding-right:15px; }
   .service-summary .service-image {
@@ -6118,13 +6131,27 @@ html {
     flex: 1; }
     .service-summary .service-content .service-title {
       font-family: "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
-      font-size: 1.5rem;
+      font-size: 0.9rem;
       font-weight: 1000;
       margin-top: 5px; }
     .service-summary .service-content p {
       color: #666;
       font-size: 0.9rem;
-      width: 90%; }
+      width: 90%; 
+  .service-summary .service-image-content{
+    transform: translate(-60px,0px); 
+    height:100px;
+    width: 122%;
+      }
+
+  .service-summary .service-content .heart{
+	  color:red;
+  }
+
+      .btn-primary.focus, .btn-primary:focus {
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
 
 .work-summary {
   display: flex;

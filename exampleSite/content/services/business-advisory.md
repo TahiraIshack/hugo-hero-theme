@@ -2,10 +2,11 @@
 title: "PHP"
 date: 2018-11-28T15:14:39+10:00
 icon: "services/php1-1.png"
+icon1: "services/landscape.jpg"
 featured: true
 draft: false
 heroHeading: "Business Advisory"
-heroSubHeading: "Expert advice and guidance when you need it most."
+heroSubHeading: "Secondary text"
 heroBackground: "services/service2.jpg"
 ---
 
@@ -21,6 +22,3 @@ heroBackground: "services/service2.jpg"
 - Loosely typed language
 - flexibile & embedded nature
 - Open Source
-- Cross-platform compatibility
-- Active community support
-- Fast and efficient
